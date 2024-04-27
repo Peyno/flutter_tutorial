@@ -18,7 +18,11 @@
         "**/*.prf": true,
         "**/orphaned-proofs.prf": true,
         "**/*_adt.pvs": false,
-        "**/*.log": true,
+        "**/*.log": false,
         "**/.vscode": true
+    },
+    "files.readonlyInclude": {
+        "**/*.tccs": true,
+        "**/*.summary": true
     }
 }
